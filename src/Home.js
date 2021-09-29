@@ -12,6 +12,9 @@ export default class Home extends Component{
                     <div className="list-group">
                         <a href="/01intro" className="list-group-item list-group-item-action">01 intro react</a>
                         <a href="/02intro" className="list-group-item list-group-item-action">02 intro javascript</a>
+                        <a href="/02templatestring" className="list-group-item list-group-item-action">02 template string</a>
+
+                        <a href="actual" className="list-group-item list-group-item-action">Seccion actual</a>
                     </div>
                 </div>
             </div>
