@@ -4,6 +4,8 @@ import { Route, Switch } from 'react-router';
 import Home from './Home';
 import Intro from './Contenido/01-INTRO-REACT';
 import IntroJavascript from './Contenido/02-intro-javascript/bases/01-const-let';
+import Actual from './Contenido/index';
+import TemplateString from './Contenido/02-intro-javascript/bases/02-template-string'
 
 export default function Routes(){
     return (
@@ -16,6 +18,13 @@ export default function Routes(){
             </Route>
             <Route exact path="/02intro">
                 <IntroJavascript />
+            </Route>
+            <Route exact path="/02templatestring">
+                <TemplateString />
+            </Route>
+
+            <Route exact path="/actual">
+                <Actual />
             </Route>
         </Switch>
     );
