@@ -11,6 +11,7 @@ export default class Home extends Component{
                 <div>
                     <div className="list-group">
                         <a href="/01intro" className="list-group-item list-group-item-action">01 intro react</a>
+                        <a href="/02intro" className="list-group-item list-group-item-action">02 intro javascript</a>
                     </div>
                 </div>
             </div>
