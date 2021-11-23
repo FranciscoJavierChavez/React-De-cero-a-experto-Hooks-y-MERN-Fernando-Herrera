@@ -14,6 +14,7 @@ export default class Home extends Component{
                         <a href="/02intro" className="list-group-item list-group-item-action">02 intro javascript</a>
                         <a href="/02templatestring" className="list-group-item list-group-item-action">02 template string</a>
                         <a href="/03objetosliterales" className="list-group-item list-group-item-action">03 objetos literales</a>
+                        <a href="/04arreglos" className="list-group-item list-group-item-action">04 arreglos</a>
 
                         <a href="actual" className="list-group-item list-group-item-action">Seccion actual</a>
                     </div>
